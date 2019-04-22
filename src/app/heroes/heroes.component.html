@@ -3,9 +3,18 @@
 <ul class="heroes">
   <li *ngFor="let hero of heroes" 
   [class.selected]="hero===selectedHero"
-  (click)="onSelect(hero)">
+  (click)="onSelect(hero, 'from My Heroes')">
      <span class="badge">{{hero.id}}</span> {{hero.name}}
   </li>
 </ul>
 
-<app-hero-detail [hero]="selectedHero"></app-hero-detail>
+<div *ngIf="selectedHeroes.size">
+  <h2>My Selected Heroes</h2>
+  <ul class="heroes">
+    <li *ngFor="let hero of getSelectedHeroes()"
+        [class.selected]="hero===selectedHero"
+        (click)="onSelect(hero, 'from My Selected Heroes')">
+        <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </li>
+  </ul>
+</div>
