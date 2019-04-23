@@ -1,0 +1,26 @@
+button {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 2px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: darkslategrey;
+    font-size: 1em;
+    font-weight: bold;
+}
+input {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-right: 2px;
+    display: inline-block;
+    background-color: #eee;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: darkslategrey;
+    font-size: 1em;
+    font-weight: bold;
+}

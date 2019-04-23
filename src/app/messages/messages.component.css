@@ -3,14 +3,14 @@ h2 {
   color: darkslategrey;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: lighter;
-  border-top-style: solid;
 }
 div.body {
-  padding: 5px;
-  scroll-behavior: auto;
-  border-bottom-style: solid; 
+ 
+  border-style: solid;
   color: darkslategray;
-   
+  border-radius: 45px;
+  padding: 25px;
+  margin-top: 10px
 }
 body, button {
   color:darkslategray;
